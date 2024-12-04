@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #008d7f;
+  padding: 0.5em 3em;
+  font-family: 'Arial', sans-serif;
+}
+
+.logoText {
+  width: 30%;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu{
+  margin-right: 1em;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 0; /* Added to remove default padding */
+  margin: 0; /* Added to remove default margin */
+}
+
+li {
+  color: white;
+  list-style: none;
+}
+
+li a {
+  color: white; /* Ensure links are white */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.loginButton{
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: #008d7f;
+  border: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+/* Show hamburger icon on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex; /* Show hamburger icon */
+  }
+
+  .menu ul {
+    flex-direction: column; /* Stack menu items vertically */
+  }
+}

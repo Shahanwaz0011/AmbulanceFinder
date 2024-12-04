@@ -1,0 +1,52 @@
+.pageContainer {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    background-color: #009688;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .userGreeting {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .loadingText {
+    font-size: 1rem;
+    font-style: italic;
+    color: #757575;
+  }
+  
+  .infoSection {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .infoText {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  .mapContainer {
+    margin-top: 30px;
+    height: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
